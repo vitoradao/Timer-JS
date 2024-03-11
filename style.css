@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.timer{
+    z-index: 10;
+}
+
+.numbers{
+   display: flex;  
+   align-items: center;
+   justify-content: center;
+   margin: 20px;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+}
+
+.separador {
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+.horas{
+   font-size: 7vh;
+   font-weight: 900;
+}
+
+.minuto{
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+.segundo{
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+.tittle{
+    font-size: 7vh;
+}
+
+span{
+    color: #175cff;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 8px;
+    width: 40%;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.start{
+    background-color: #175cff;
+    color: white;
+    scale: 100%;
+    transition: 0.3s;
+}
+
+.start:hover{
+    transition: 0.3s;
+    transform: ease-out;
+    background-color: white;
+    color:#175cff;
+    transform: scale(1.1);
+}
+
+.btnpause{
+    transition: 0.3s;
+}
+
+.btnpause:hover{
+ background-color: black;
+ color: white;
+ transition: 0.3s;
+ transform: scale(1.1);
+}
+
+.btnreset{
+    transition: 0.3s;
+}
+
+.btnreset:hover{
+ background-color: black;
+ color: white;
+ transition: 0.3s;
+ transform: scale(1.1);
+}
+
+
+h1{
+    color: white;
+}
+
+h2{
+    color: #172953;
+}
