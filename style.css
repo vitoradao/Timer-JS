@@ -7,6 +7,7 @@ body{
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;   
+    overflow-y: hidden;
 }
 
 .container{
@@ -145,15 +146,19 @@ h2{
      }
      
      .minuto{
-         font-size: 5.5vh;
+         font-size: 5.7vh;
      }
      
      .segundo{
-         font-size: 5.5vh;
+         font-size: 5.7vh;
      }
      
      .tittle{
-         font-size: 5.5vh;
+         font-size: 5.7vh;
      }
+     .separador {
+        font-size: 5.7vh;
+    }
+    
      
 }
