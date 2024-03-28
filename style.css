@@ -43,21 +43,25 @@ svg {
 .separador {
     font-size: 7vh;
     font-weight: 900;
+    padding: 1.5%;
 }
 
 .horas{
    font-size: 7vh;
    font-weight: 900;
+   padding: 1.5%;
 }
 
 .minuto{
     font-size: 7vh;
     font-weight: 900;
+    padding: 1.5%;
 }
 
 .segundo{
     font-size: 7vh;
     font-weight: 900;
+    padding: 1.5%;
 }
 
 .tittle{
@@ -133,4 +137,23 @@ h1{
 
 h2{
     color: #172953;
+}
+
+@media screen and (max-width: 428px){
+    .horas{
+        font-size: 5.5vh;
+     }
+     
+     .minuto{
+         font-size: 5.5vh;
+     }
+     
+     .segundo{
+         font-size: 5.5vh;
+     }
+     
+     .tittle{
+         font-size: 5.5vh;
+     }
+     
 }
